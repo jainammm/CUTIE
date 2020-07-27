@@ -42,14 +42,6 @@ for filename in os.listdir(directory):
                             bbox.append(xmax)
                             bbox.append(ymax)
 
-                # # bbox.append(
-                # #     '0': xmin,
-                # #     '1': ymin,
-                # #     '2': xmax,
-                # #     '3': ymax
-                # # )
-                # bbox.append(xmin)
-                # bbox.append(ymin)
                 if 'text' in ob:
                     final_data['textbox'].append({
                         'id' : count,
