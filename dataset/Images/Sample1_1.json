@@ -1,1 +1,1839 @@
-{"textbox": [{"id": 0, "bbox": [761, 33, 977, 57], "text": "VirtualCompanvlnd"}, {"id": 1, "bbox": [763, 66, 852, 84], "text": "VirtualAddr."}, {"id": 2, "bbox": [859, 66, 934, 83], "text": "255.0.0.0"}, {"id": 3, "bbox": [940, 68, 979, 83], "text": "India"}, {"id": 4, "bbox": [1219, 54, 1285, 64], "text": "Pane 1 of 3"}, {"id": 5, "bbox": [634, 95, 727, 115], "text": "Telephone:"}, {"id": 6, "bbox": [734, 97, 786, 110], "text": "Email:"}, {"id": 7, "bbox": [792, 97, 877, 112], "text": "abc@amail."}, {"id": 8, "bbox": [879, 99, 911, 110], "text": "com"}, {"id": 9, "bbox": [615, 118, 665, 133], "text": "GSTN"}, {"id": 10, "bbox": [669, 118, 863, 135], "text": "No:17ABCDEF123GXYZ"}, {"id": 11, "bbox": [886, 118, 923, 131], "text": "A"}, {"id": 12, "bbox": [927, 120, 1063, 135], "text": "No:AAABB999OA"}, {"id": 13, "bbox": [696, 141, 942, 156], "text": "CIN:A10002AA1710ALB001995"}, {"id": 14, "bbox": [738, 162, 785, 188], "text": "Tax"}, {"id": 15, "bbox": [792, 168, 882, 185], "text": "Invoice"}, {"id": 16, "bbox": [264, 199, 343, 214], "text": "Originalfor"}, {"id": 17, "bbox": [345, 199, 415, 216], "text": "Recipient"}, {"id": 18, "bbox": [268, 228, 312, 239], "text": "Bill T"}, {"id": 19, "bbox": [316, 228, 372, 241], "text": "1700235"}, {"id": 20, "bbox": [559, 230, 584, 243], "text": "Ship"}, {"id": 21, "bbox": [586, 230, 613, 239], "text": "T..."}, {"id": 22, "bbox": [622, 230, 678, 243], "text": "1700234"}, {"id": 23, "bbox": [848, 229, 956, 243], "text": "Transporter Name:"}, {"id": 24, "bbox": [268, 253, 522, 264], "text": "CustomerName:BECIEVEROMPANYIND"}, {"id": 25, "bbox": [1125, 233, 1185, 241], "text": "Invoice No"}, {"id": 26, "bbox": [1187, 230, 1231, 243], "text": "(ODN):"}, {"id": 27, "bbox": [559, 253, 721, 264], "text": "CustomerNameBECIEVER"}, {"id": 28, "bbox": [726, 253, 811, 264], "text": "COMPANYIND"}, {"id": 29, "bbox": [268, 276, 434, 289], "text": "RECIEVERCOMPANYIND"}, {"id": 30, "bbox": [846, 254, 915, 268], "text": "Number:"}, {"id": 31, "bbox": [965, 257, 994, 268], "text": "1234"}, {"id": 32, "bbox": [1123, 251, 1156, 264], "text": "1234"}, {"id": 33, "bbox": [559, 276, 723, 289], "text": "RECIEVER COMPANYIND"}, {"id": 34, "bbox": [268, 295, 309, 307], "text": "111000"}, {"id": 35, "bbox": [314, 295, 353, 307], "text": "INDIA"}, {"id": 36, "bbox": [557, 295, 601, 307], "text": "111000."}, {"id": 37, "bbox": [603, 295, 640, 305], "text": "IND"}, {"id": 38, "bbox": [846, 281, 896, 294], "text": "I B Date:"}, {"id": 39, "bbox": [965, 282, 1019, 295], "text": "1/7/2017"}, {"id": 40, "bbox": [1125, 278, 1254, 291], "text": "Internal Number:1234"}, {"id": 41, "bbox": [846, 307, 909, 318], "text": "E Wav Bill"}, {"id": 42, "bbox": [1125, 301, 1260, 314], "text": "Invoice Date:1/7/2017"}, {"id": 43, "bbox": [846, 334, 931, 345], "text": "Freight Terms:"}, {"id": 44, "bbox": [963, 334, 998, 345], "text": "Costs"}, {"id": 45, "bbox": [1002, 337, 1112, 345], "text": "insurance&freinht"}, {"id": 46, "bbox": [1125, 326, 1164, 334], "text": "Invoice"}, {"id": 47, "bbox": [1169, 326, 1202, 337], "text": "Time:"}, {"id": 48, "bbox": [1204, 326, 1260, 337], "text": "12:10:59"}, {"id": 49, "bbox": [268, 370, 299, 380], "text": "State"}, {"id": 50, "bbox": [303, 372, 355, 382], "text": "Haryana"}, {"id": 51, "bbox": [557, 372, 592, 384], "text": "State:"}, {"id": 52, "bbox": [595, 371, 644, 384], "text": "Haryana"}, {"id": 53, "bbox": [649, 372, 680, 384], "text": "India"}, {"id": 54, "bbox": [846, 359, 938, 370], "text": "DeliveryTerms\u00b7"}, {"id": 55, "bbox": [1125, 349, 1225, 361], "text": "Delivery Number:"}, {"id": 56, "bbox": [1233, 349, 1316, 361], "text": "8000134664"}, {"id": 57, "bbox": [268, 395, 353, 403], "text": "State code06"}, {"id": 58, "bbox": [1125, 372, 1173, 384], "text": "Delivery"}, {"id": 59, "bbox": [1173, 374, 1204, 382], "text": "Date:"}, {"id": 60, "bbox": [1217, 370, 1269, 382], "text": "1/7/2017"}, {"id": 61, "bbox": [557, 394, 621, 407], "text": "Statecode"}, {"id": 62, "bbox": [626, 395, 642, 405], "text": "06"}, {"id": 63, "bbox": [846, 387, 942, 401], "text": "Payment Terms:"}, {"id": 64, "bbox": [963, 389, 1052, 399], "text": "Payment within"}, {"id": 65, "bbox": [1056, 389, 1104, 399], "text": "60 Davs"}, {"id": 66, "bbox": [268, 416, 332, 431], "text": "Telephone:"}, {"id": 67, "bbox": [1123, 395, 1175, 405], "text": "Purchase"}, {"id": 68, "bbox": [557, 418, 619, 428], "text": "Teleobone"}, {"id": 69, "bbox": [1179, 393, 1314, 408], "text": "OnlerNo:PO1234567"}, {"id": 70, "bbox": [268, 441, 411, 451], "text": "PAN No90980"}, {"id": 71, "bbox": [557, 439, 701, 453], "text": "ANNo\u00b7ABBOC9098G"}, {"id": 72, "bbox": [867, 438, 919, 449], "text": "Number:"}, {"id": 73, "bbox": [1123, 420, 1175, 428], "text": "Purchace"}, {"id": 74, "bbox": [1179, 420, 1298, 430], "text": "OrderDate:17/2017"}, {"id": 75, "bbox": [268, 463, 328, 476], "text": "GSTNNo:"}, {"id": 76, "bbox": [328, 463, 470, 476], "text": "-07AABBC8888G1AZ1"}, {"id": 77, "bbox": [1125, 443, 1244, 455], "text": "OrderNo.:1234567"}, {"id": 78, "bbox": [557, 466, 757, 478], "text": "GSTNNo:-07AABBC8888G1AZ1"}, {"id": 79, "bbox": [846, 463, 865, 476], "text": "DA"}, {"id": 80, "bbox": [867, 466, 904, 476], "text": "Date::"}, {"id": 81, "bbox": [959, 463, 1015, 476], "text": "1/7/2017"}, {"id": 82, "bbox": [846, 489, 940, 502], "text": "PlaceofSupply"}, {"id": 83, "bbox": [846, 515, 917, 526], "text": "StateName"}, {"id": 84, "bbox": [961, 516, 1012, 532], "text": "Haryana"}, {"id": 85, "bbox": [846, 542, 877, 555], "text": "State"}, {"id": 86, "bbox": [880, 542, 917, 556], "text": "Code:"}, {"id": 87, "bbox": [963, 542, 977, 553], "text": "06"}, {"id": 88, "bbox": [312, 572, 339, 580], "text": "Item"}, {"id": 89, "bbox": [384, 572, 411, 580], "text": "HSN"}, {"id": 90, "bbox": [293, 592, 359, 603], "text": "Description"}, {"id": 91, "bbox": [380, 592, 418, 605], "text": "CODE"}, {"id": 92, "bbox": [428, 571, 478, 584], "text": "Categon"}, {"id": 93, "bbox": [486, 572, 538, 582], "text": "Size wise"}, {"id": 94, "bbox": [501, 592, 526, 605], "text": "Qty"}, {"id": 95, "bbox": [545, 572, 576, 584], "text": "Total"}, {"id": 96, "bbox": [549, 594, 570, 605], "text": "Qty"}, {"id": 97, "bbox": [582, 572, 599, 582], "text": "UO"}, {"id": 98, "bbox": [615, 595, 663, 603], "text": "per Unit"}, {"id": 99, "bbox": [628, 572, 651, 582], "text": "Mr"}, {"id": 100, "bbox": [696, 572, 726, 584], "text": "Disc."}, {"id": 101, "bbox": [767, 574, 794, 582], "text": "Disc"}, {"id": 102, "bbox": [838, 572, 907, 584], "text": "Basic selling"}, {"id": 103, "bbox": [963, 572, 998, 584], "text": "CGST"}, {"id": 104, "bbox": [1044, 574, 1125, 584], "text": "SGST/UTGST"}, {"id": 105, "bbox": [1175, 574, 1206, 586], "text": "IGST"}, {"id": 106, "bbox": [1277, 576, 1318, 584], "text": "Invoice"}, {"id": 107, "bbox": [842, 594, 902, 605], "text": "Price(INB)"}, {"id": 108, "bbox": [551, 615, 570, 626], "text": "PC"}, {"id": 109, "bbox": [626, 615, 657, 628], "text": "(INR)"}, {"id": 110, "bbox": [1281, 597, 1316, 609], "text": "Value"}, {"id": 111, "bbox": [297, 657, 359, 667], "text": "productfor"}, {"id": 112, "bbox": [297, 642, 343, 655], "text": "Dummy"}, {"id": 113, "bbox": [382, 640, 416, 653], "text": "6203"}, {"id": 114, "bbox": [432, 640, 476, 651], "text": "Bottom"}, {"id": 115, "bbox": [486, 640, 536, 653], "text": "32/34/2"}, {"id": 116, "bbox": [567, 642, 599, 650], "text": "2PC"}, {"id": 117, "bbox": [624, 644, 674, 655], "text": "1523.04"}, {"id": 118, "bbox": [711, 644, 740, 655], "text": "0.00"}, {"id": 119, "bbox": [788, 644, 819, 657], "text": "0.00"}, {"id": 120, "bbox": [871, 644, 925, 657], "text": "1523.04"}, {"id": 121, "bbox": [938, 644, 967, 657], "text": "2.50"}, {"id": 122, "bbox": [938, 617, 990, 630], "text": "Rate(%)"}, {"id": 123, "bbox": [994, 644, 1029, 655], "text": "38.08"}, {"id": 124, "bbox": [994, 617, 1021, 630], "text": "Amt"}, {"id": 125, "bbox": [1044, 617, 1094, 630], "text": "Rate(%)"}, {"id": 126, "bbox": [1098, 619, 1125, 628], "text": "Amt"}, {"id": 127, "bbox": [1150, 619, 1198, 628], "text": "Rate(%)"}, {"id": 128, "bbox": [297, 674, 355, 682], "text": "evaluation"}, {"id": 129, "bbox": [1098, 646, 1133, 657], "text": "38.08"}, {"id": 130, "bbox": [1148, 646, 1175, 657], "text": "0.00"}, {"id": 131, "bbox": [1210, 646, 1241, 659], "text": "0.00"}, {"id": 132, "bbox": [1300, 646, 1352, 657], "text": "1599.20"}, {"id": 133, "bbox": [262, 773, 278, 784], "text": "10"}, {"id": 134, "bbox": [297, 773, 345, 786], "text": "Dummy"}, {"id": 135, "bbox": [381, 772, 413, 786], "text": "6203"}, {"id": 136, "bbox": [432, 775, 478, 786], "text": "Bottom"}, {"id": 137, "bbox": [486, 773, 534, 786], "text": "30/34/2"}, {"id": 138, "bbox": [566, 776, 600, 788], "text": "2PC"}, {"id": 139, "bbox": [296, 791, 362, 800], "text": "productfor"}, {"id": 140, "bbox": [624, 778, 674, 788], "text": "152304"}, {"id": 141, "bbox": [788, 788, 817, 778], "text": "0.00"}, {"id": 142, "bbox": [936, 780, 965, 790], "text": "2.50"}, {"id": 143, "bbox": [738, 788, 711, 778], "text": "00'0"}, {"id": 144, "bbox": [297, 807, 357, 817], "text": "evaluation"}, {"id": 145, "bbox": [992, 780, 1031, 792], "text": "38.08"}, {"id": 146, "bbox": [1042, 780, 1071, 792], "text": "2.50"}, {"id": 147, "bbox": [1098, 780, 1135, 792], "text": "38.08"}, {"id": 148, "bbox": [1298, 782, 1350, 792], "text": "1599.20"}, {"id": 149, "bbox": [309, 909, 339, 919], "text": "Total"}, {"id": 150, "bbox": [711, 915, 738, 923], "text": "0.00"}, {"id": 151, "bbox": [863, 915, 902, 923], "text": "14468"}, {"id": 152, "bbox": [1027, 925, 984, 915], "text": "91198"}, {"id": 153, "bbox": [1090, 915, 1133, 927], "text": "361.76"}, {"id": 154, "bbox": [297, 955, 370, 967], "text": "TotalInvoice"}, {"id": 155, "bbox": [1352, 929, 1289, 917], "text": "07~2619"}, {"id": 156, "bbox": [374, 956, 434, 967], "text": "Amount in"}, {"id": 157, "bbox": [436, 959, 476, 967], "text": "words:"}, {"id": 158, "bbox": [482, 956, 524, 967], "text": "Fifteen"}, {"id": 159, "bbox": [528, 956, 609, 969], "text": "Thousand One"}, {"id": 160, "bbox": [663, 957, 702, 972], "text": "Ninety"}, {"id": 161, "bbox": [705, 959, 844, 971], "text": "TwoRupeesFoty Paise"}, {"id": 162, "bbox": [846, 959, 873, 971], "text": "Only"}, {"id": 163, "bbox": [318, 1008, 393, 1019], "text": "Receivedthe"}, {"id": 164, "bbox": [397, 1008, 534, 1022], "text": "Goodsingoodcondition"}, {"id": 165, "bbox": [653, 1013, 742, 1025], "text": "Other Remarks:"}, {"id": 166, "bbox": [347, 1075, 401, 1090], "text": "Signature"}, {"id": 167, "bbox": [405, 1077, 457, 1085], "text": "with Seal"}, {"id": 168, "bbox": [461, 1077, 507, 1088], "text": "/Stamp"}]}
+{
+    "fields": [
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "SELLER_STATE",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "SELLER_ID",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "SELLER_NAME",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "SELLER_ADDRESS",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "SELLER_GSTIN_NUMBER",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "COUNTRY_OF_ORIGIN",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "CURRENCY",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "DESCRIPTION",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "INVOICE_NUMBER",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "INVOICE_DATE",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "DUE_DATE",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "TOTAL_INVOICE_AMOUNT_ENTERED_BY_WH_OPERATOR",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "TOTAL_INVOICE_QUANTITY_ENTERED_BY_WH_OPERATOR",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "TOTAL_TCS_COLLECTED",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "ROUND_OFF_CHARGES",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "PO_NUMBER",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "INVOICE_ITEMS_TOTAL_AMOUNT",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "INVOICE_ITEMS_TOTAL_QUANTITY",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "BUYER_GSTIN_NUMBER",
+            "value_id": [],
+            "key_id": []
+        },
+        {
+            "value_text": [],
+            "key_text": [],
+            "field_name": "SHIP_TO_ADDRESS",
+            "value_id": [],
+            "key_id": []
+        }
+    ],
+    "global_attributes": {
+        "file_id": "Sample1_1.png"
+    },
+    "textbox": [
+        {
+            "text": "VirtualCompanvlnd",
+            "id": 0,
+            "bbox": [
+                761,
+                33,
+                977,
+                57
+            ]
+        },
+        {
+            "text": "VirtualAddr.",
+            "id": 1,
+            "bbox": [
+                763,
+                66,
+                852,
+                84
+            ]
+        },
+        {
+            "text": "255.0.0.0",
+            "id": 2,
+            "bbox": [
+                859,
+                66,
+                934,
+                83
+            ]
+        },
+        {
+            "text": "India",
+            "id": 3,
+            "bbox": [
+                940,
+                68,
+                979,
+                83
+            ]
+        },
+        {
+            "text": "Pane 1 of 3",
+            "id": 4,
+            "bbox": [
+                1219,
+                54,
+                1285,
+                64
+            ]
+        },
+        {
+            "text": "Telephone:",
+            "id": 5,
+            "bbox": [
+                634,
+                95,
+                727,
+                115
+            ]
+        },
+        {
+            "text": "Email:",
+            "id": 6,
+            "bbox": [
+                734,
+                97,
+                786,
+                110
+            ]
+        },
+        {
+            "text": "abc@amail.",
+            "id": 7,
+            "bbox": [
+                792,
+                97,
+                877,
+                112
+            ]
+        },
+        {
+            "text": "com",
+            "id": 8,
+            "bbox": [
+                879,
+                99,
+                911,
+                110
+            ]
+        },
+        {
+            "text": "GSTN",
+            "id": 9,
+            "bbox": [
+                615,
+                118,
+                665,
+                133
+            ]
+        },
+        {
+            "text": "No:17ABCDEF123GXYZ",
+            "id": 10,
+            "bbox": [
+                669,
+                118,
+                863,
+                135
+            ]
+        },
+        {
+            "text": "A",
+            "id": 11,
+            "bbox": [
+                886,
+                118,
+                923,
+                131
+            ]
+        },
+        {
+            "text": "No:AAABB999OA",
+            "id": 12,
+            "bbox": [
+                927,
+                120,
+                1063,
+                135
+            ]
+        },
+        {
+            "text": "CIN:A10002AA1710ALB001995",
+            "id": 13,
+            "bbox": [
+                696,
+                141,
+                942,
+                156
+            ]
+        },
+        {
+            "text": "Tax",
+            "id": 14,
+            "bbox": [
+                738,
+                162,
+                785,
+                188
+            ]
+        },
+        {
+            "text": "Invoice",
+            "id": 15,
+            "bbox": [
+                792,
+                168,
+                882,
+                185
+            ]
+        },
+        {
+            "text": "Originalfor",
+            "id": 16,
+            "bbox": [
+                264,
+                199,
+                343,
+                214
+            ]
+        },
+        {
+            "text": "Recipient",
+            "id": 17,
+            "bbox": [
+                345,
+                199,
+                415,
+                216
+            ]
+        },
+        {
+            "text": "Bill T",
+            "id": 18,
+            "bbox": [
+                268,
+                228,
+                312,
+                239
+            ]
+        },
+        {
+            "text": "1700235",
+            "id": 19,
+            "bbox": [
+                316,
+                228,
+                372,
+                241
+            ]
+        },
+        {
+            "text": "Ship",
+            "id": 20,
+            "bbox": [
+                559,
+                230,
+                584,
+                243
+            ]
+        },
+        {
+            "text": "T...",
+            "id": 21,
+            "bbox": [
+                586,
+                230,
+                613,
+                239
+            ]
+        },
+        {
+            "text": "1700234",
+            "id": 22,
+            "bbox": [
+                622,
+                230,
+                678,
+                243
+            ]
+        },
+        {
+            "text": "Transporter Name:",
+            "id": 23,
+            "bbox": [
+                848,
+                229,
+                956,
+                243
+            ]
+        },
+        {
+            "text": "CustomerName:BECIEVEROMPANYIND",
+            "id": 24,
+            "bbox": [
+                268,
+                253,
+                522,
+                264
+            ]
+        },
+        {
+            "text": "Invoice No",
+            "id": 25,
+            "bbox": [
+                1125,
+                233,
+                1185,
+                241
+            ]
+        },
+        {
+            "text": "(ODN):",
+            "id": 26,
+            "bbox": [
+                1187,
+                230,
+                1231,
+                243
+            ]
+        },
+        {
+            "text": "CustomerNameBECIEVER",
+            "id": 27,
+            "bbox": [
+                559,
+                253,
+                721,
+                264
+            ]
+        },
+        {
+            "text": "COMPANYIND",
+            "id": 28,
+            "bbox": [
+                726,
+                253,
+                811,
+                264
+            ]
+        },
+        {
+            "text": "RECIEVERCOMPANYIND",
+            "id": 29,
+            "bbox": [
+                268,
+                276,
+                434,
+                289
+            ]
+        },
+        {
+            "text": "Number:",
+            "id": 30,
+            "bbox": [
+                846,
+                254,
+                915,
+                268
+            ]
+        },
+        {
+            "text": "1234",
+            "id": 31,
+            "bbox": [
+                965,
+                257,
+                994,
+                268
+            ]
+        },
+        {
+            "text": "1234",
+            "id": 32,
+            "bbox": [
+                1123,
+                251,
+                1156,
+                264
+            ]
+        },
+        {
+            "text": "RECIEVER COMPANYIND",
+            "id": 33,
+            "bbox": [
+                559,
+                276,
+                723,
+                289
+            ]
+        },
+        {
+            "text": "111000",
+            "id": 34,
+            "bbox": [
+                268,
+                295,
+                309,
+                307
+            ]
+        },
+        {
+            "text": "INDIA",
+            "id": 35,
+            "bbox": [
+                314,
+                295,
+                353,
+                307
+            ]
+        },
+        {
+            "text": "111000.",
+            "id": 36,
+            "bbox": [
+                557,
+                295,
+                601,
+                307
+            ]
+        },
+        {
+            "text": "IND",
+            "id": 37,
+            "bbox": [
+                603,
+                295,
+                640,
+                305
+            ]
+        },
+        {
+            "text": "I B Date:",
+            "id": 38,
+            "bbox": [
+                846,
+                281,
+                896,
+                294
+            ]
+        },
+        {
+            "text": "1/7/2017",
+            "id": 39,
+            "bbox": [
+                965,
+                282,
+                1019,
+                295
+            ]
+        },
+        {
+            "text": "Internal Number:1234",
+            "id": 40,
+            "bbox": [
+                1125,
+                278,
+                1254,
+                291
+            ]
+        },
+        {
+            "text": "E Wav Bill",
+            "id": 41,
+            "bbox": [
+                846,
+                307,
+                909,
+                318
+            ]
+        },
+        {
+            "text": "Invoice Date:1/7/2017",
+            "id": 42,
+            "bbox": [
+                1125,
+                301,
+                1260,
+                314
+            ]
+        },
+        {
+            "text": "Freight Terms:",
+            "id": 43,
+            "bbox": [
+                846,
+                334,
+                931,
+                345
+            ]
+        },
+        {
+            "text": "Costs",
+            "id": 44,
+            "bbox": [
+                963,
+                334,
+                998,
+                345
+            ]
+        },
+        {
+            "text": "insurance&freinht",
+            "id": 45,
+            "bbox": [
+                1002,
+                337,
+                1112,
+                345
+            ]
+        },
+        {
+            "text": "Invoice",
+            "id": 46,
+            "bbox": [
+                1125,
+                326,
+                1164,
+                334
+            ]
+        },
+        {
+            "text": "Time:",
+            "id": 47,
+            "bbox": [
+                1169,
+                326,
+                1202,
+                337
+            ]
+        },
+        {
+            "text": "12:10:59",
+            "id": 48,
+            "bbox": [
+                1204,
+                326,
+                1260,
+                337
+            ]
+        },
+        {
+            "text": "State",
+            "id": 49,
+            "bbox": [
+                268,
+                370,
+                299,
+                380
+            ]
+        },
+        {
+            "text": "Haryana",
+            "id": 50,
+            "bbox": [
+                303,
+                372,
+                355,
+                382
+            ]
+        },
+        {
+            "text": "State:",
+            "id": 51,
+            "bbox": [
+                557,
+                372,
+                592,
+                384
+            ]
+        },
+        {
+            "text": "Haryana",
+            "id": 52,
+            "bbox": [
+                595,
+                371,
+                644,
+                384
+            ]
+        },
+        {
+            "text": "India",
+            "id": 53,
+            "bbox": [
+                649,
+                372,
+                680,
+                384
+            ]
+        },
+        {
+            "text": "DeliveryTerms·",
+            "id": 54,
+            "bbox": [
+                846,
+                359,
+                938,
+                370
+            ]
+        },
+        {
+            "text": "Delivery Number:",
+            "id": 55,
+            "bbox": [
+                1125,
+                349,
+                1225,
+                361
+            ]
+        },
+        {
+            "text": "8000134664",
+            "id": 56,
+            "bbox": [
+                1233,
+                349,
+                1316,
+                361
+            ]
+        },
+        {
+            "text": "State code06",
+            "id": 57,
+            "bbox": [
+                268,
+                395,
+                353,
+                403
+            ]
+        },
+        {
+            "text": "Delivery",
+            "id": 58,
+            "bbox": [
+                1125,
+                372,
+                1173,
+                384
+            ]
+        },
+        {
+            "text": "Date:",
+            "id": 59,
+            "bbox": [
+                1173,
+                374,
+                1204,
+                382
+            ]
+        },
+        {
+            "text": "1/7/2017",
+            "id": 60,
+            "bbox": [
+                1217,
+                370,
+                1269,
+                382
+            ]
+        },
+        {
+            "text": "Statecode",
+            "id": 61,
+            "bbox": [
+                557,
+                394,
+                621,
+                407
+            ]
+        },
+        {
+            "text": "06",
+            "id": 62,
+            "bbox": [
+                626,
+                395,
+                642,
+                405
+            ]
+        },
+        {
+            "text": "Payment Terms:",
+            "id": 63,
+            "bbox": [
+                846,
+                387,
+                942,
+                401
+            ]
+        },
+        {
+            "text": "Payment within",
+            "id": 64,
+            "bbox": [
+                963,
+                389,
+                1052,
+                399
+            ]
+        },
+        {
+            "text": "60 Davs",
+            "id": 65,
+            "bbox": [
+                1056,
+                389,
+                1104,
+                399
+            ]
+        },
+        {
+            "text": "Telephone:",
+            "id": 66,
+            "bbox": [
+                268,
+                416,
+                332,
+                431
+            ]
+        },
+        {
+            "text": "Purchase",
+            "id": 67,
+            "bbox": [
+                1123,
+                395,
+                1175,
+                405
+            ]
+        },
+        {
+            "text": "Teleobone",
+            "id": 68,
+            "bbox": [
+                557,
+                418,
+                619,
+                428
+            ]
+        },
+        {
+            "text": "OnlerNo:PO1234567",
+            "id": 69,
+            "bbox": [
+                1179,
+                393,
+                1314,
+                408
+            ]
+        },
+        {
+            "text": "PAN No90980",
+            "id": 70,
+            "bbox": [
+                268,
+                441,
+                411,
+                451
+            ]
+        },
+        {
+            "text": "ANNo·ABBOC9098G",
+            "id": 71,
+            "bbox": [
+                557,
+                439,
+                701,
+                453
+            ]
+        },
+        {
+            "text": "Number:",
+            "id": 72,
+            "bbox": [
+                867,
+                438,
+                919,
+                449
+            ]
+        },
+        {
+            "text": "Purchace",
+            "id": 73,
+            "bbox": [
+                1123,
+                420,
+                1175,
+                428
+            ]
+        },
+        {
+            "text": "OrderDate:17/2017",
+            "id": 74,
+            "bbox": [
+                1179,
+                420,
+                1298,
+                430
+            ]
+        },
+        {
+            "text": "GSTNNo:",
+            "id": 75,
+            "bbox": [
+                268,
+                463,
+                328,
+                476
+            ]
+        },
+        {
+            "text": "-07AABBC8888G1AZ1",
+            "id": 76,
+            "bbox": [
+                328,
+                463,
+                470,
+                476
+            ]
+        },
+        {
+            "text": "OrderNo.:1234567",
+            "id": 77,
+            "bbox": [
+                1125,
+                443,
+                1244,
+                455
+            ]
+        },
+        {
+            "text": "GSTNNo:-07AABBC8888G1AZ1",
+            "id": 78,
+            "bbox": [
+                557,
+                466,
+                757,
+                478
+            ]
+        },
+        {
+            "text": "DA",
+            "id": 79,
+            "bbox": [
+                846,
+                463,
+                865,
+                476
+            ]
+        },
+        {
+            "text": "Date::",
+            "id": 80,
+            "bbox": [
+                867,
+                466,
+                904,
+                476
+            ]
+        },
+        {
+            "text": "1/7/2017",
+            "id": 81,
+            "bbox": [
+                959,
+                463,
+                1015,
+                476
+            ]
+        },
+        {
+            "text": "PlaceofSupply",
+            "id": 82,
+            "bbox": [
+                846,
+                489,
+                940,
+                502
+            ]
+        },
+        {
+            "text": "StateName",
+            "id": 83,
+            "bbox": [
+                846,
+                515,
+                917,
+                526
+            ]
+        },
+        {
+            "text": "Haryana",
+            "id": 84,
+            "bbox": [
+                961,
+                516,
+                1012,
+                532
+            ]
+        },
+        {
+            "text": "State",
+            "id": 85,
+            "bbox": [
+                846,
+                542,
+                877,
+                555
+            ]
+        },
+        {
+            "text": "Code:",
+            "id": 86,
+            "bbox": [
+                880,
+                542,
+                917,
+                556
+            ]
+        },
+        {
+            "text": "06",
+            "id": 87,
+            "bbox": [
+                963,
+                542,
+                977,
+                553
+            ]
+        },
+        {
+            "text": "Item",
+            "id": 88,
+            "bbox": [
+                312,
+                572,
+                339,
+                580
+            ]
+        },
+        {
+            "text": "HSN",
+            "id": 89,
+            "bbox": [
+                384,
+                572,
+                411,
+                580
+            ]
+        },
+        {
+            "text": "Description",
+            "id": 90,
+            "bbox": [
+                293,
+                592,
+                359,
+                603
+            ]
+        },
+        {
+            "text": "CODE",
+            "id": 91,
+            "bbox": [
+                380,
+                592,
+                418,
+                605
+            ]
+        },
+        {
+            "text": "Categon",
+            "id": 92,
+            "bbox": [
+                428,
+                571,
+                478,
+                584
+            ]
+        },
+        {
+            "text": "Size wise",
+            "id": 93,
+            "bbox": [
+                486,
+                572,
+                538,
+                582
+            ]
+        },
+        {
+            "text": "Qty",
+            "id": 94,
+            "bbox": [
+                501,
+                592,
+                526,
+                605
+            ]
+        },
+        {
+            "text": "Total",
+            "id": 95,
+            "bbox": [
+                545,
+                572,
+                576,
+                584
+            ]
+        },
+        {
+            "text": "Qty",
+            "id": 96,
+            "bbox": [
+                549,
+                594,
+                570,
+                605
+            ]
+        },
+        {
+            "text": "UO",
+            "id": 97,
+            "bbox": [
+                582,
+                572,
+                599,
+                582
+            ]
+        },
+        {
+            "text": "per Unit",
+            "id": 98,
+            "bbox": [
+                615,
+                595,
+                663,
+                603
+            ]
+        },
+        {
+            "text": "Mr",
+            "id": 99,
+            "bbox": [
+                628,
+                572,
+                651,
+                582
+            ]
+        },
+        {
+            "text": "Disc.",
+            "id": 100,
+            "bbox": [
+                696,
+                572,
+                726,
+                584
+            ]
+        },
+        {
+            "text": "Disc",
+            "id": 101,
+            "bbox": [
+                767,
+                574,
+                794,
+                582
+            ]
+        },
+        {
+            "text": "Basic selling",
+            "id": 102,
+            "bbox": [
+                838,
+                572,
+                907,
+                584
+            ]
+        },
+        {
+            "text": "CGST",
+            "id": 103,
+            "bbox": [
+                963,
+                572,
+                998,
+                584
+            ]
+        },
+        {
+            "text": "SGST/UTGST",
+            "id": 104,
+            "bbox": [
+                1044,
+                574,
+                1125,
+                584
+            ]
+        },
+        {
+            "text": "IGST",
+            "id": 105,
+            "bbox": [
+                1175,
+                574,
+                1206,
+                586
+            ]
+        },
+        {
+            "text": "Invoice",
+            "id": 106,
+            "bbox": [
+                1277,
+                576,
+                1318,
+                584
+            ]
+        },
+        {
+            "text": "Price(INB)",
+            "id": 107,
+            "bbox": [
+                842,
+                594,
+                902,
+                605
+            ]
+        },
+        {
+            "text": "PC",
+            "id": 108,
+            "bbox": [
+                551,
+                615,
+                570,
+                626
+            ]
+        },
+        {
+            "text": "(INR)",
+            "id": 109,
+            "bbox": [
+                626,
+                615,
+                657,
+                628
+            ]
+        },
+        {
+            "text": "Value",
+            "id": 110,
+            "bbox": [
+                1281,
+                597,
+                1316,
+                609
+            ]
+        },
+        {
+            "text": "productfor",
+            "id": 111,
+            "bbox": [
+                297,
+                657,
+                359,
+                667
+            ]
+        },
+        {
+            "text": "Dummy",
+            "id": 112,
+            "bbox": [
+                297,
+                642,
+                343,
+                655
+            ]
+        },
+        {
+            "text": "6203",
+            "id": 113,
+            "bbox": [
+                382,
+                640,
+                416,
+                653
+            ]
+        },
+        {
+            "text": "Bottom",
+            "id": 114,
+            "bbox": [
+                432,
+                640,
+                476,
+                651
+            ]
+        },
+        {
+            "text": "32/34/2",
+            "id": 115,
+            "bbox": [
+                486,
+                640,
+                536,
+                653
+            ]
+        },
+        {
+            "text": "2PC",
+            "id": 116,
+            "bbox": [
+                567,
+                642,
+                599,
+                650
+            ]
+        },
+        {
+            "text": "1523.04",
+            "id": 117,
+            "bbox": [
+                624,
+                644,
+                674,
+                655
+            ]
+        },
+        {
+            "text": "0.00",
+            "id": 118,
+            "bbox": [
+                711,
+                644,
+                740,
+                655
+            ]
+        },
+        {
+            "text": "0.00",
+            "id": 119,
+            "bbox": [
+                788,
+                644,
+                819,
+                657
+            ]
+        },
+        {
+            "text": "1523.04",
+            "id": 120,
+            "bbox": [
+                871,
+                644,
+                925,
+                657
+            ]
+        },
+        {
+            "text": "2.50",
+            "id": 121,
+            "bbox": [
+                938,
+                644,
+                967,
+                657
+            ]
+        },
+        {
+            "text": "Rate(%)",
+            "id": 122,
+            "bbox": [
+                938,
+                617,
+                990,
+                630
+            ]
+        },
+        {
+            "text": "38.08",
+            "id": 123,
+            "bbox": [
+                994,
+                644,
+                1029,
+                655
+            ]
+        },
+        {
+            "text": "Amt",
+            "id": 124,
+            "bbox": [
+                994,
+                617,
+                1021,
+                630
+            ]
+        },
+        {
+            "text": "Rate(%)",
+            "id": 125,
+            "bbox": [
+                1044,
+                617,
+                1094,
+                630
+            ]
+        },
+        {
+            "text": "Amt",
+            "id": 126,
+            "bbox": [
+                1098,
+                619,
+                1125,
+                628
+            ]
+        },
+        {
+            "text": "Rate(%)",
+            "id": 127,
+            "bbox": [
+                1150,
+                619,
+                1198,
+                628
+            ]
+        },
+        {
+            "text": "evaluation",
+            "id": 128,
+            "bbox": [
+                297,
+                674,
+                355,
+                682
+            ]
+        },
+        {
+            "text": "38.08",
+            "id": 129,
+            "bbox": [
+                1098,
+                646,
+                1133,
+                657
+            ]
+        },
+        {
+            "text": "0.00",
+            "id": 130,
+            "bbox": [
+                1148,
+                646,
+                1175,
+                657
+            ]
+        },
+        {
+            "text": "0.00",
+            "id": 131,
+            "bbox": [
+                1210,
+                646,
+                1241,
+                659
+            ]
+        },
+        {
+            "text": "1599.20",
+            "id": 132,
+            "bbox": [
+                1300,
+                646,
+                1352,
+                657
+            ]
+        },
+        {
+            "text": "10",
+            "id": 133,
+            "bbox": [
+                262,
+                773,
+                278,
+                784
+            ]
+        },
+        {
+            "text": "Dummy",
+            "id": 134,
+            "bbox": [
+                297,
+                773,
+                345,
+                786
+            ]
+        },
+        {
+            "text": "6203",
+            "id": 135,
+            "bbox": [
+                381,
+                772,
+                413,
+                786
+            ]
+        },
+        {
+            "text": "Bottom",
+            "id": 136,
+            "bbox": [
+                432,
+                775,
+                478,
+                786
+            ]
+        },
+        {
+            "text": "30/34/2",
+            "id": 137,
+            "bbox": [
+                486,
+                773,
+                534,
+                786
+            ]
+        },
+        {
+            "text": "2PC",
+            "id": 138,
+            "bbox": [
+                566,
+                776,
+                600,
+                788
+            ]
+        },
+        {
+            "text": "productfor",
+            "id": 139,
+            "bbox": [
+                296,
+                791,
+                362,
+                800
+            ]
+        },
+        {
+            "text": "152304",
+            "id": 140,
+            "bbox": [
+                624,
+                778,
+                674,
+                788
+            ]
+        },
+        {
+            "text": "0.00",
+            "id": 141,
+            "bbox": [
+                788,
+                788,
+                817,
+                778
+            ]
+        },
+        {
+            "text": "2.50",
+            "id": 142,
+            "bbox": [
+                936,
+                780,
+                965,
+                790
+            ]
+        },
+        {
+            "text": "00'0",
+            "id": 143,
+            "bbox": [
+                738,
+                788,
+                711,
+                778
+            ]
+        },
+        {
+            "text": "evaluation",
+            "id": 144,
+            "bbox": [
+                297,
+                807,
+                357,
+                817
+            ]
+        },
+        {
+            "text": "38.08",
+            "id": 145,
+            "bbox": [
+                992,
+                780,
+                1031,
+                792
+            ]
+        },
+        {
+            "text": "2.50",
+            "id": 146,
+            "bbox": [
+                1042,
+                780,
+                1071,
+                792
+            ]
+        },
+        {
+            "text": "38.08",
+            "id": 147,
+            "bbox": [
+                1098,
+                780,
+                1135,
+                792
+            ]
+        },
+        {
+            "text": "1599.20",
+            "id": 148,
+            "bbox": [
+                1298,
+                782,
+                1350,
+                792
+            ]
+        },
+        {
+            "text": "Total",
+            "id": 149,
+            "bbox": [
+                309,
+                909,
+                339,
+                919
+            ]
+        },
+        {
+            "text": "0.00",
+            "id": 150,
+            "bbox": [
+                711,
+                915,
+                738,
+                923
+            ]
+        },
+        {
+            "text": "14468",
+            "id": 151,
+            "bbox": [
+                863,
+                915,
+                902,
+                923
+            ]
+        },
+        {
+            "text": "91198",
+            "id": 152,
+            "bbox": [
+                1027,
+                925,
+                984,
+                915
+            ]
+        },
+        {
+            "text": "361.76",
+            "id": 153,
+            "bbox": [
+                1090,
+                915,
+                1133,
+                927
+            ]
+        },
+        {
+            "text": "TotalInvoice",
+            "id": 154,
+            "bbox": [
+                297,
+                955,
+                370,
+                967
+            ]
+        },
+        {
+            "text": "07~2619",
+            "id": 155,
+            "bbox": [
+                1352,
+                929,
+                1289,
+                917
+            ]
+        },
+        {
+            "text": "Amount in",
+            "id": 156,
+            "bbox": [
+                374,
+                956,
+                434,
+                967
+            ]
+        },
+        {
+            "text": "words:",
+            "id": 157,
+            "bbox": [
+                436,
+                959,
+                476,
+                967
+            ]
+        },
+        {
+            "text": "Fifteen",
+            "id": 158,
+            "bbox": [
+                482,
+                956,
+                524,
+                967
+            ]
+        },
+        {
+            "text": "Thousand One",
+            "id": 159,
+            "bbox": [
+                528,
+                956,
+                609,
+                969
+            ]
+        },
+        {
+            "text": "Ninety",
+            "id": 160,
+            "bbox": [
+                663,
+                957,
+                702,
+                972
+            ]
+        },
+        {
+            "text": "TwoRupeesFoty Paise",
+            "id": 161,
+            "bbox": [
+                705,
+                959,
+                844,
+                971
+            ]
+        },
+        {
+            "text": "Only",
+            "id": 162,
+            "bbox": [
+                846,
+                959,
+                873,
+                971
+            ]
+        },
+        {
+            "text": "Receivedthe",
+            "id": 163,
+            "bbox": [
+                318,
+                1008,
+                393,
+                1019
+            ]
+        },
+        {
+            "text": "Goodsingoodcondition",
+            "id": 164,
+            "bbox": [
+                397,
+                1008,
+                534,
+                1022
+            ]
+        },
+        {
+            "text": "Other Remarks:",
+            "id": 165,
+            "bbox": [
+                653,
+                1013,
+                742,
+                1025
+            ]
+        },
+        {
+            "text": "Signature",
+            "id": 166,
+            "bbox": [
+                347,
+                1075,
+                401,
+                1090
+            ]
+        },
+        {
+            "text": "with Seal",
+            "id": 167,
+            "bbox": [
+                405,
+                1077,
+                457,
+                1085
+            ]
+        },
+        {
+            "text": "/Stamp",
+            "id": 168,
+            "bbox": [
+                461,
+                1077,
+                507,
+                1088
+            ]
+        }
+    ]
+}
