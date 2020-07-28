@@ -38,27 +38,6 @@
         {
             "value_text": [],
             "key_text": [],
-            "field_name": "COUNTRY_OF_ORIGIN",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "CURRENCY",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "DESCRIPTION",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
             "field_name": "INVOICE_NUMBER",
             "value_id": [],
             "key_id": []
@@ -80,49 +59,7 @@
         {
             "value_text": [],
             "key_text": [],
-            "field_name": "TOTAL_INVOICE_AMOUNT_ENTERED_BY_WH_OPERATOR",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "TOTAL_INVOICE_QUANTITY_ENTERED_BY_WH_OPERATOR",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "TOTAL_TCS_COLLECTED",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "ROUND_OFF_CHARGES",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
             "field_name": "PO_NUMBER",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "INVOICE_ITEMS_TOTAL_AMOUNT",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "INVOICE_ITEMS_TOTAL_QUANTITY",
             "value_id": [],
             "key_id": []
         },
