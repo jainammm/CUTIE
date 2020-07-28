@@ -1,143 +1,88 @@
 {
     "fields": [
         {
-            "value_text": [],
+            "value_text": ["Haryana.", "India"],
             "key_text": [],
             "field_name": "SELLER_STATE",
-            "value_id": [],
+            "value_id": [49,50],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["BillTo-1700235"],
             "key_text": [],
             "field_name": "SELLER_ID",
-            "value_id": [],
+            "value_id": [19],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["RECIEVER COMPANYIND"],
             "key_text": [],
             "field_name": "SELLER_NAME",
-            "value_id": [],
+            "value_id": [23],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": [
+                "RECIEVER COMANYIND",
+                "111000",
+                "INDIA"
+            ],
             "key_text": [],
             "field_name": "SELLER_ADDRESS",
-            "value_id": [],
+            "value_id": [25, 34, 35],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["-07AABBC8888G1AZ1"],
             "key_text": [],
             "field_name": "SELLER_GSTIN_NUMBER",
-            "value_id": [],
+            "value_id": [73],
             "key_id": []
         },
         {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "COUNTRY_OF_ORIGIN",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "CURRENCY",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "DESCRIPTION",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
+            "value_text": ["1234"],
             "key_text": [],
             "field_name": "INVOICE_NUMBER",
-            "value_id": [],
+            "value_id": [31],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["1/7/2017"],
             "key_text": [],
             "field_name": "INVOICE_DATE",
-            "value_id": [],
+            "value_id": [42],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["1/7/2017"],
             "key_text": [],
             "field_name": "DUE_DATE",
-            "value_id": [],
+            "value_id": [62],
             "key_id": []
         },
         {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "TOTAL_INVOICE_AMOUNT_ENTERED_BY_WH_OPERATOR",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "TOTAL_INVOICE_QUANTITY_ENTERED_BY_WH_OPERATOR",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "TOTAL_TCS_COLLECTED",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "ROUND_OFF_CHARGES",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
+            "value_text": ["OrderNo·P01234567"],
             "key_text": [],
             "field_name": "PO_NUMBER",
-            "value_id": [],
+            "value_id": [65],
             "key_id": []
         },
         {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "INVOICE_ITEMS_TOTAL_AMOUNT",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "INVOICE_ITEMS_TOTAL_QUANTITY",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
+            "value_text": ["GSTNNo:-07AABBC8888G1AZ1"],
             "key_text": [],
             "field_name": "BUYER_GSTIN_NUMBER",
-            "value_id": [],
+            "value_id": [76],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": [
+                "RECIEVER COMANYIND",
+                "111000",
+                "INDIA"
+            ],
             "key_text": [],
             "field_name": "SHIP_TO_ADDRESS",
-            "value_id": [],
+            "value_id": [33, 36, 37],
             "key_id": []
         }
     ],

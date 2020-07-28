@@ -5,10 +5,8 @@ directory = 'Images'
 destination = 'Images'
 
 fields = ['Seller State', 'Seller ID', 'Seller Name', 'Seller Address', 'Seller GSTIN Number',
-          'Country of Origin', 'Currency', 'Description', 'Invoice Number', 'Invoice Date', 'Due Date',
-          'Total Invoice amount entered by WH operator', 'Total Invoice Quantity entered by WH operator',
-          'Total TCS Collected', 'Round Off Charges', 'PO Number', 'Invoice Items Total Amount',
-          'Invoice Items total quantity', 'Buyer GSTIN Number', 'Ship to Address']
+          'Invoice Number', 'Invoice Date', 'Due Date', 'PO Number',
+          'Buyer GSTIN Number', 'Ship to Address']
 
 for filename in os.listdir(directory):
     if filename.endswith(".json"):
