@@ -4,7 +4,7 @@ import os
 directory = 'Images'
 destination = 'Images'
 
-fields = ['Seller State', 'Seller ID', 'Seller Name', 'Seller Address', 'Seller GSTIN Number',
+fields = ['Seller Name', 'Seller Address', 'Seller GSTIN Number',
           'Invoice Number', 'Invoice Date', 'Due Date', 'PO Number',
           'Buyer GSTIN Number', 'Ship to Address']
 

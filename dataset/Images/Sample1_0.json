@@ -1,42 +1,29 @@
 {
     "fields": [
         {
-            "value_text": ["Haryana.", "India"],
-            "key_text": [],
-            "field_name": "SELLER_STATE",
-            "value_id": [49,50],
-            "key_id": []
-        },
-        {
-            "value_text": ["BillTo-1700235"],
-            "key_text": [],
-            "field_name": "SELLER_ID",
-            "value_id": [19],
-            "key_id": []
-        },
-        {
-            "value_text": ["RECIEVER COMPANYIND"],
+            "value_text": ["VirtualCompanvlnd"],
             "key_text": [],
             "field_name": "SELLER_NAME",
-            "value_id": [23],
+            "value_id": [0],
             "key_id": []
         },
         {
             "value_text": [
-                "RECIEVER COMANYIND",
-                "111000",
-                "INDIA"
+                "VirtualAddr",
+                "255",
+                "000",
+                "India"
             ],
             "key_text": [],
             "field_name": "SELLER_ADDRESS",
-            "value_id": [25, 34, 35],
+            "value_id": [1, 2, 3, 4],
             "key_id": []
         },
         {
-            "value_text": ["-07AABBC8888G1AZ1"],
+            "value_text": ["17ABCDEF123GXYZ"],
             "key_text": [],
             "field_name": "SELLER_GSTIN_NUMBER",
-            "value_id": [73],
+            "value_id": [11],
             "key_id": []
         },
         {
@@ -68,10 +55,10 @@
             "key_id": []
         },
         {
-            "value_text": ["GSTNNo:-07AABBC8888G1AZ1"],
+            "value_text": ["-07AABBC8888G1AZ1"],
             "key_text": [],
             "field_name": "BUYER_GSTIN_NUMBER",
-            "value_id": [76],
+            "value_id": [73],
             "key_id": []
         },
         {

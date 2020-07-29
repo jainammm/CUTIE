@@ -1,80 +1,75 @@
 {
     "fields": [
         {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "SELLER_STATE",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
-            "key_text": [],
-            "field_name": "SELLER_ID",
-            "value_id": [],
-            "key_id": []
-        },
-        {
-            "value_text": [],
+            "value_text": ["VIRTUALCOMPANYIND"],
             "key_text": [],
             "field_name": "SELLER_NAME",
-            "value_id": [],
+            "value_id": [2],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": [
+                "VirtualAddr,",
+                "255.0.0.0,",
+                "India"
+            ],
             "key_text": [],
             "field_name": "SELLER_ADDRESS",
-            "value_id": [],
+            "value_id": [3, 4, 5],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["17ABCDEF123GXYZ"],
             "key_text": [],
             "field_name": "SELLER_GSTIN_NUMBER",
-            "value_id": [],
+            "value_id": [18],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["CI1416603306"],
             "key_text": [],
             "field_name": "INVOICE_NUMBER",
-            "value_id": [],
+            "value_id": [22],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["/03.01.2018"],
             "key_text": [],
             "field_name": "INVOICE_DATE",
-            "value_id": [],
+            "value_id": [23],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["02.02.2018"],
             "key_text": [],
             "field_name": "DUE_DATE",
-            "value_id": [],
+            "value_id": [48],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["PO1234567"],
             "key_text": [],
             "field_name": "PO_NUMBER",
-            "value_id": [],
+            "value_id": [180],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": ["07AABBC8888G1AZ1"],
             "key_text": [],
             "field_name": "BUYER_GSTIN_NUMBER",
-            "value_id": [],
+            "value_id": [80],
             "key_id": []
         },
         {
-            "value_text": [],
+            "value_text": [
+                "Reciever",
+                "CompanyInd",
+                "111000,",
+                "India"
+            ],
             "key_text": [],
             "field_name": "SHIP_TO_ADDRESS",
-            "value_id": [],
+            "value_id": [70,71,72,73],
             "key_id": []
         }
     ],
