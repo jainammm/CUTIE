@@ -82,7 +82,7 @@
     "global_attributes": {
         "file_id": "Sample10_0.png"
     },
-    "textbox": [
+    "text_boxes": [
         {
             "text": "TAX",
             "id": 0,

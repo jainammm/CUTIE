@@ -82,7 +82,7 @@
     "global_attributes": {
         "file_id": "Sample7_0.png"
     },
-    "textbox": [
+    "text_boxes": [
         {
             "text": "Serial",
             "id": 0,

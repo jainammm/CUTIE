@@ -76,7 +76,7 @@
     "global_attributes": {
         "file_id": "Sample5_0.png"
     },
-    "textbox": [
+    "text_boxes": [
         {
             "text": "VirtualCompanvlnd",
             "id": 0,
