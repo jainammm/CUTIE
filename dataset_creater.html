@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        div.footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            margin: 0 auto;
+            background: #0072BB;
+            color: #fff;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 200px;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Open image: <input type="file" id="inputImage" /></p>
+    <p>Open Json: <input type="file" id="inputJson" /></p>
+
+    <label for="classes">Choose a class:</label>
+    <select id="classes" name="classes">
+    </select>
+
+    <button onclick="submitField()">Add</button>
+    <button onclick="downloadJson()">Download</button>
+
+    <canvas id="canvas" style="margin:12px;"></canvas>
+
+    <table id="table"></table>
+    <br><br>
+    <div class="footer" id="results">Move mouse over image to show mouse location and pixel value and alpha</div>
+
+    <script>
+
+        var allclasses = ['SELLER_STATE', 'SELLER_ID', 'SELLER_NAME', 'SELLER_ADDRESS', 'SELLER_GSTIN_NUMBER',
+            'COUNTRY_OF_ORIGIN', 'CURRENCY', 'DESCRIPTION', 'INVOICE_NUMBER', 'INVOICE_DATE', 'DUE_DATE',
+            'TOTAL_INVOICE_AMOUNT_ENTERED_BY_WH_OPERATOR', 'TOTAL_INVOICE_QUANTITY_ENTERED_BY_WH_OPERATOR',
+            'TOTAL_TCS_COLLECTED', 'ROUND_OFF_CHARGES', 'PO_NUMBER', 'INVOICE_ITEMS_TOTAL_AMOUNT',
+            'INVOICE_ITEMS_TOTAL_QUANTITY', 'BUYER_GSTIN_NUMBER', 'SHIP_TO_ADDRESS'];
+
+        select = document.getElementById('classes');
+        table = document.getElementById('table');
+
+        for (op in allclasses) {
+            var opt = document.createElement('option');
+            opt.value = allclasses[op];
+            opt.innerHTML = allclasses[op];
+            select.appendChild(opt);
+
+            var tr = document.createElement('tr');
+            var td1 = document.createElement('td');
+            var td2 = document.createElement('td');
+            td2.id = allclasses[op] + "td";
+            td1.innerHTML = allclasses[op];
+            td2.innerHTML = "&#9989;";
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            table.appendChild(tr);
+        }
+
+        var URL = window.URL;
+        var cvs = document.getElementById('canvas');
+        var ctx = cvs.getContext('2d');
+        var res = document.getElementById('results');
+        var rects;
+        var json;
+        var filename;
+
+        var selectedRects = [];
+        var fields = [];
+
+        function submitField() {
+            selectedClass = document.getElementById("classes").value;
+
+            var value_text = [];
+
+            for (i in selectedRects) {
+                value_text.push(rects[selectedRects[i]].text);
+            }
+
+            fields.push(
+                {
+                    "field_name": selectedClass,
+                    "value_id": selectedRects,
+                    "value_text": value_text,
+                    "key_id": [],
+                    "key_text": []
+                }
+            );
+            selectedRects = [];
+            var text = document.createTextNode(selectedClass + ", ");
+
+            td = document.getElementById(selectedClass + 'td');
+            td.innerHTML = "&#10004;";
+        }
+
+        function downloadJson() {
+            json["fields"] = fields;
+
+            var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(json));
+            var downloadAnchorNode = document.createElement('a');
+            downloadAnchorNode.setAttribute("href", dataStr);
+            downloadAnchorNode.setAttribute("download", filename);
+            document.body.appendChild(downloadAnchorNode); // required for firefox
+            downloadAnchorNode.click();
+            downloadAnchorNode.remove();
+        }
+
+        cvs.addEventListener('click', function (e) {
+            var rectID = collides(e.offsetX, e.offsetY);
+            fillcolor(rectID);
+            selectedRects.push(rectID);
+        }, false);
+
+        function collides(x, y) {
+            for (var i = 0, len = rects.length; i < len; i++) {
+                var left = rects[i].bbox[0], right = rects[i].bbox[2];
+                var top = rects[i].bbox[1], bottom = rects[i].bbox[3];
+                if (right >= x
+                    && left <= x
+                    && bottom >= y
+                    && top <= y) {
+
+                    return rects[i].id;
+                }
+            }
+        }
+
+        function fillcolor(rectID) {
+            ctx.fillStyle = '#00800047';
+            ctx.fillRect(
+                rects[rectID].bbox[0], rects[rectID].bbox[1],
+                rects[rectID].bbox[2] - rects[rectID].bbox[0],
+                rects[rectID].bbox[3] - rects[rectID].bbox[1]
+            );
+        }
+
+        cvs.addEventListener('mousemove', mousePos, false);
+
+        window.onload = function () {
+            var inputImage = document.getElementById('inputImage');
+            inputImage.addEventListener('change', handleImageFiles, false);
+
+            var inputJson = document.getElementById('inputJson');
+            inputJson.addEventListener('change', handleJsonFiles, false);
+        }
+
+        function handleJsonFiles(e) {
+            filename = e.target.files[0].name;
+            fr = new FileReader();
+            fr.onload = receivedText;
+            fr.readAsText(e.target.files[0]);
+        }
+
+        function receivedText(e) {
+            let lines = e.target.result;
+            json = JSON.parse(lines);
+            rects = json['text_boxes'];
+
+            if (ctx) {
+                ctx.beginPath();
+                ctx.strokeStyle = "red";
+                for (var i = 0, len = rects.length; i < len; i++) {
+                    ctx.rect(
+                        rects[i].bbox[0], rects[i].bbox[1],
+                        rects[i].bbox[2] - rects[i].bbox[0],
+                        rects[i].bbox[3] - rects[i].bbox[1]
+                    );
+                }
+                ctx.stroke();
+            }
+        }
+
+        function mousePos(evt) {
+            var rect = cvs.getBoundingClientRect();
+            var x = parseInt(evt.clientX - rect.left);
+            var y = parseInt(evt.clientY - rect.top);
+            var p = ctx.getImageData(x, y, 1, 1).data;
+            results.innerHTML = '<table style="width:100%;table-layout:fixed"><td>X: '
+                + x + '</td><td>Y: ' + y + '</td><td>Red: '
+                + p[0] + '</td><td>Green: ' + p[1] + '</td><td>Blue: '
+                + p[2] + '</td><td>Alpha: ' + p[3] + "</td></table>";
+            return { x, y };
+        }
+
+        function handleImageFiles(e) {
+            var url = URL.createObjectURL(e.target.files[0]);
+            var img = new Image();
+            img.onload = function () {
+                cvs.width = img.width;
+                cvs.height = img.height;
+                ctx.drawImage(img, 0, 0);
+            }
+            img.src = url;
+        }
+
+    </script>
+</body>
+
+</html>
