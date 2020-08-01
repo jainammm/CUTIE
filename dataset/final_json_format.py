@@ -4,9 +4,11 @@ import os
 directory = 'Images'
 destination = 'Images'
 
-fields = ['Seller Name', 'Seller Address', 'Seller GSTIN Number',
-          'Invoice Number', 'Invoice Date', 'Due Date', 'PO Number',
-          'Buyer GSTIN Number', 'Ship to Address']
+fields = ['SELLER_STATE', 'SELLER_ID', 'SELLER_NAME', 'SELLER_ADDRESS', 'SELLER_GSTIN_NUMBER',
+          'COUNTRY_OF_ORIGIN', 'CURRENCY', 'DESCRIPTION', 'INVOICE_NUMBER', 'INVOICE_DATE', 'DUE_DATE',
+          'TOTAL_INVOICE_AMOUNT_ENTERED_BY_WH_OPERATOR', 'TOTAL_INVOICE_QUANTITY_ENTERED_BY_WH_OPERATOR',
+          'TOTAL_TCS_COLLECTED', 'ROUND_OFF_CHARGES', 'PO_NUMBER', 'INVOICE_ITEMS_TOTAL_AMOUNT',
+          'INVOICE_ITEMS_TOTAL_QUANTITY', 'BUYER_GSTIN_NUMBER', 'SHIP_TO_ADDRESS']
 
 for filename in os.listdir(directory):
     if filename.endswith(".json"):
