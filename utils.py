@@ -224,14 +224,14 @@ def vis_bbox(data_loader, file_prefix, grid_table, gt_classes, model_output_val,
                 h = shape[0] // data_loader.cols * 2
                 
             if data_input_flat[i] and labels[i]:
-                gt_id = labels[i]                
-                cv2.rectangle(overlay_box, (x,y), (x+w,y+h), gt_color[gt_id], -1)
+                gt_id = labels[i]         
+                cv2.rectangle(overlay_box, (x,y), (x+w,y+h), gt_color[gt_id-1], -1)
                     
             if max(logits[i]) > c_threshold:
                 inf_id = np.argmax(logits[i])
                 if inf_id:                
                     cv2.rectangle(overlay_line, (x+bbox_pad,y+bbox_pad), \
-                                  (x+bbox_pad+w,y+bbox_pad+h), inf_color[inf_id], max_len//768*2)
+                                  (x+bbox_pad+w,y+bbox_pad+h), inf_color[inf_id-1], max_len//768*2)
                 
             #text = data_loader.classes[gt_id] + '|' + data_loader.classes[inf_id]
             #cv2.putText(img, text, (x,y), font, font_size, ft_color)  
@@ -244,7 +244,7 @@ def vis_bbox(data_loader, file_prefix, grid_table, gt_classes, model_output_val,
             col = 0
             x = shape[1] // data_loader.cols * col
             y = shape[0] // data_loader.rows * row 
-            cv2.rectangle(img, (x,y), (x+w,y+h), gt_color[i], -1)
+            cv2.rectangle(img, (x,y), (x+w,y+h), gt_color[i-1], -1)
             cv2.putText(img, data_loader.classes[i], (x+w,y+h), font, 0.8, ft_color)  
             
             row = i * 3 + 1
@@ -252,7 +252,7 @@ def vis_bbox(data_loader, file_prefix, grid_table, gt_classes, model_output_val,
             x = shape[1] // data_loader.cols * col
             y = shape[0] // data_loader.rows * row 
             cv2.rectangle(img, (x+bbox_pad,y+bbox_pad), \
-                          (x+bbox_pad+w,y+bbox_pad+h), inf_color[i], max_len//384)        
+                          (x+bbox_pad+w,y+bbox_pad+h), inf_color[i-1], max_len//384)        
         
         alpha = 0.4
         cv2.addWeighted(overlay_box, alpha, img, 1-alpha, 0, img)
@@ -341,7 +341,7 @@ def vis_table(data_loader, file_prefix, grid_table, gt_classes, model_output_val
             
             if data_input_flat[i] and labels[i]:
                 gt_id = labels[i]                
-                cv2.rectangle(overlay_box, (x,y), (x+w,y+h), gt_color[gt_id], -1)                
+                cv2.rectangle(overlay_box, (x,y), (x+w,y+h), gt_color[gt_id-1], -1)                
                 gt_x = min(x, gt_x)
                 gt_y = min(y, gt_y)
                 gt_r = max(x+w, gt_r)
@@ -351,7 +351,7 @@ def vis_table(data_loader, file_prefix, grid_table, gt_classes, model_output_val
                 inf_id = np.argmax(logits[i])
                 if inf_id:                
                     cv2.rectangle(overlay_line, (x+bbox_pad,y+bbox_pad), \
-                                  (x+bbox_pad+w,y+bbox_pad+h), inf_color[inf_id], max_len//768*2)                
+                                  (x+bbox_pad+w,y+bbox_pad+h), inf_color[inf_id-1], max_len//768*2)                
                     inf_x = min(x, inf_x)
                     inf_y = min(y, inf_y)
                     inf_r = max(x+w, inf_r)
@@ -371,7 +371,7 @@ def vis_table(data_loader, file_prefix, grid_table, gt_classes, model_output_val
             col = 0
             x = shape[1] // data_loader.cols * col
             y = shape[0] // data_loader.rows * row 
-            cv2.rectangle(img, (x,y), (x+w,y+h), gt_color[i], -1)
+            cv2.rectangle(img, (x,y), (x+w,y+h), gt_color[i-1], -1)
             cv2.putText(img, data_loader.classes[i], (x+w,y+h), font, 0.8, ft_color)  
             
             row = i * 3 + 1
@@ -379,7 +379,7 @@ def vis_table(data_loader, file_prefix, grid_table, gt_classes, model_output_val
             x = shape[1] // data_loader.cols * col
             y = shape[0] // data_loader.rows * row 
             cv2.rectangle(img, (x+bbox_pad,y+bbox_pad), \
-                          (x+bbox_pad+w,y+bbox_pad+h), inf_color[i], max_len//384)        
+                          (x+bbox_pad+w,y+bbox_pad+h), inf_color[i-1], max_len//384)        
         
         alpha = 0.4
         cv2.addWeighted(overlay_box, alpha, img, 1-alpha, 0, img)
