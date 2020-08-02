@@ -33,13 +33,16 @@ class DataLoader():
     """
     grid tables producer
     """
-    def __init__(self, params, update_dict=True, load_dictionary=False, data_split=0.75):
+    def __init__(self, params, update_dict=True, load_dictionary=False, data_split=0.8):
         self.random = False
         self.data_laundry = False
         self.encoding_factor = 1 # ensures the size (rows/cols) of grid table compat with the network
         #self.classes = ['DontCare', 'company', 'date', 'address', 'total'] # for ICDAR2019 SROIE
-        self.classes = ['O','SELLER_NAME', 'SELLER_ADDRESS', 'SELLER_GSTIN_NUMBER', 'INVOICE_NUMBER',
-            'INVOICE_DATE', 'DUE_DATE', 'PO_NUMBER', 'BUYER_GSTIN_NUMBER', 'SHIP_TO_ADDRESS']
+        self.classes = ['DontCare','SELLER_STATE', 'SELLER_ID', 'SELLER_NAME', 'SELLER_ADDRESS', 'SELLER_GSTIN_NUMBER',
+            'COUNTRY_OF_ORIGIN', 'CURRENCY', 'DESCRIPTION', 'INVOICE_NUMBER', 'INVOICE_DATE', 'DUE_DATE',
+            'TOTAL_INVOICE_AMOUNT_ENTERED_BY_WH_OPERATOR', 'PO_NUMBER', 'BUYER_GSTIN_NUMBER', 'SHIP_TO_ADDRESS',
+            'PRODUCT_ID', 'HSN', 'TITLE', 'QUANTITY', 'UNIT_PRICE', 'DISCOUNT_PERCENT', 'SGST_PERCENT',
+            'CGST_PERCENT', 'IGST_PERCENT', 'TOTAL_AMOUNT']
         #self.classes = ['DontCare', 'Table'] # for table
         #self.classes = ['DontCare', 'Column0', 'Column1', 'Column2', 'Column3', 'Column4', 'Column5'] # for column
         #self.classes = ['DontCare', 'Column']

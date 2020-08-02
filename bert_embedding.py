@@ -141,7 +141,7 @@ class BertEmbedding(object):
 
 if __name__ == '__main__':
     # data
-    data_loader = DataLoader(params, update_dict=False, load_dictionary=params.load_dict, data_split=0.75)
+    data_loader = DataLoader(params, update_dict=False, load_dictionary=params.load_dict)
 
     # save bert dictionary
     with open(params.bert_dict_file, encoding='utf-8') as f:

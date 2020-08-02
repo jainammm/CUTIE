@@ -131,7 +131,7 @@ if __name__ == '__main__':
     pprint(params)
     # data
     
-    data_loader = DataLoader(params, update_dict=params.update_dict, load_dictionary=params.load_dict, data_split=0.75)
+    data_loader = DataLoader(params, update_dict=params.update_dict, load_dictionary=params.load_dict)
     num_words = max(20000, data_loader.num_words)
     num_classes = data_loader.num_classes
     for _ in range(2000):

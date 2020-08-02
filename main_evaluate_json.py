@@ -46,7 +46,7 @@ params = parser.parse_args()
 if __name__ == '__main__':
     # data
     #data_loader = DataLoader(params, True, True) # True to use 25% training data
-    data_loader = DataLoader(params, update_dict=False, load_dictionary=True, data_split=0.75) # False to provide a path with only test data
+    data_loader = DataLoader(params, update_dict=False, load_dictionary=True) # False to provide a path with only test data
     num_words = max(20000, data_loader.num_words)
     num_classes = data_loader.num_classes
 
