@@ -33,15 +33,15 @@
 
 <body>
 
-    <p>Open image: <input type="file" id="inputImage" /></p>
-    <p>Open Json: <input type="file" id="inputJson" /></p>
-
     <label for="classes">Choose a class:</label>
     <select id="classes" name="classes">
     </select>
 
     <button onclick="submitField()">Add</button>
     <button onclick="downloadJson()">Download</button>
+
+    <p>Open image: <input type="file" id="inputImage" /></p>
+    <p>Open Json: <input type="file" id="inputJson" /></p>
 
     <canvas id="canvas" style="margin:12px;"></canvas>
 
@@ -106,6 +106,7 @@
                     "key_text": []
                 }
             );
+            console.log(fields);
             selectedRects = [];
             var text = document.createTextNode(selectedClass + ", ");
 
