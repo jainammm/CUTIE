@@ -92,15 +92,17 @@
             selectedClass = document.getElementById("classes").value;
 
             var value_text = [];
+            var value_id = [];
 
             for (i in selectedRects) {
-                value_text.push(rects[selectedRects[i]].text);
+                value_text.push(selectedRects[i].text);
+                value_id.push(selectedRects[i].id);
             }
 
             fields.push(
                 {
                     "field_name": selectedClass,
-                    "value_id": selectedRects,
+                    "value_id": value_id,
                     "value_text": value_text,
                     "key_id": [],
                     "key_text": []
@@ -127,9 +129,9 @@
         }
 
         cvs.addEventListener('click', function (e) {
-            var rectID = collides(e.offsetX, e.offsetY);
-            fillcolor(rectID);
-            selectedRects.push(rectID);
+            var rect = collides(e.offsetX, e.offsetY);
+            fillcolor(rect);
+            selectedRects.push(rect);
         }, false);
 
         function collides(x, y) {
@@ -141,17 +143,17 @@
                     && bottom >= y
                     && top <= y) {
 
-                    return rects[i].id;
+                    return rects[i];
                 }
             }
         }
 
-        function fillcolor(rectID) {
+        function fillcolor(rect) {
             ctx.fillStyle = '#00800047';
             ctx.fillRect(
-                rects[rectID].bbox[0], rects[rectID].bbox[1],
-                rects[rectID].bbox[2] - rects[rectID].bbox[0],
-                rects[rectID].bbox[3] - rects[rectID].bbox[1]
+                rect.bbox[0], rect.bbox[1],
+                rect.bbox[2] - rect.bbox[0],
+                rect.bbox[3] - rect.bbox[1]
             );
         }
 
