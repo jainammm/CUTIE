@@ -1,76 +1,417 @@
 {
     "fields": [
         {
-            "value_text": ["VirtualCompanvlnd"],
-            "key_text": [],
-            "field_name": "SELLER_NAME",
-            "value_id": [0],
-            "key_id": []
+            "field_name": "SELLER_STATE",
+            "value_id": [
+                82
+            ],
+            "value_text": [
+                "Haryana"
+            ],
+            "key_id": [],
+            "key_text": []
         },
         {
+            "field_name": "SELLER_ID",
+            "value_id": [
+                14
+            ],
+            "value_text": [
+                "CIN:A10002AA1710ALB001995"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "SELLER_NAME",
+            "value_id": [
+                0
+            ],
+            "value_text": [
+                "VirtualCompanvlnd"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "SELLER_ADDRESS",
+            "value_id": [
+                1,
+                2,
+                3,
+                4
+            ],
             "value_text": [
                 "VirtualAddr",
                 "255",
                 "000",
                 "India"
             ],
-            "key_text": [],
-            "field_name": "SELLER_ADDRESS",
-            "value_id": [1, 2, 3, 4],
-            "key_id": []
+            "key_id": [],
+            "key_text": []
         },
         {
-            "value_text": ["17ABCDEF123GXYZ"],
-            "key_text": [],
             "field_name": "SELLER_GSTIN_NUMBER",
-            "value_id": [11],
-            "key_id": []
+            "value_id": [
+                11
+            ],
+            "value_text": [
+                "17ABCDEF123GXYZ"
+            ],
+            "key_id": [],
+            "key_text": []
         },
         {
-            "value_text": ["1234"],
-            "key_text": [],
+            "field_name": "COUNTRY_OF_ORIGIN",
+            "value_id": [
+                4
+            ],
+            "value_text": [
+                "India"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "CURRENCY",
+            "value_id": [
+                104
+            ],
+            "value_text": [
+                "(INB)"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "DESCRIPTION",
+            "value_id": [
+                15,
+                16
+            ],
+            "value_text": [
+                "Tax",
+                "Invoice"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
             "field_name": "INVOICE_NUMBER",
-            "value_id": [31],
-            "key_id": []
+            "value_id": [
+                31
+            ],
+            "value_text": [
+                "1234"
+            ],
+            "key_id": [],
+            "key_text": []
         },
         {
-            "value_text": ["1/7/2017"],
-            "key_text": [],
             "field_name": "INVOICE_DATE",
-            "value_id": [42],
-            "key_id": []
+            "value_id": [
+                42
+            ],
+            "value_text": [
+                "1/7/2017"
+            ],
+            "key_id": [],
+            "key_text": []
         },
         {
-            "value_text": ["1/7/2017"],
-            "key_text": [],
             "field_name": "DUE_DATE",
-            "value_id": [62],
-            "key_id": []
+            "value_id": [
+                62
+            ],
+            "value_text": [
+                "1/7/2017"
+            ],
+            "key_id": [],
+            "key_text": []
         },
         {
-            "value_text": ["OrderNo·P01234567"],
-            "key_text": [],
             "field_name": "PO_NUMBER",
-            "value_id": [65],
-            "key_id": []
+            "value_id": [
+                65
+            ],
+            "value_text": [
+                "OrderNo·P01234567"
+            ],
+            "key_id": [],
+            "key_text": []
         },
         {
-            "value_text": ["-07AABBC8888G1AZ1"],
-            "key_text": [],
             "field_name": "BUYER_GSTIN_NUMBER",
-            "value_id": [73],
-            "key_id": []
+            "value_id": [
+                73
+            ],
+            "value_text": [
+                "-07AABBC8888G1AZ1"
+            ],
+            "key_id": [],
+            "key_text": []
         },
         {
+            "field_name": "SHIP_TO_ADDRESS",
+            "value_id": [
+                33,
+                36,
+                37
+            ],
             "value_text": [
                 "RECIEVER COMANYIND",
                 "111000",
                 "INDIA"
             ],
-            "key_text": [],
-            "field_name": "SHIP_TO_ADDRESS",
-            "value_id": [33, 36, 37],
-            "key_id": []
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "HSN",
+            "value_id": [
+                107,
+                130,
+                146,
+                163,
+                181,
+                196,
+                212,
+                231
+            ],
+            "value_text": [
+                "6203",
+                "6203",
+                "6203",
+                "6203",
+                "6203",
+                "6203",
+                "6203",
+                "6203"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "TITLE",
+            "value_id": [
+                106,
+                117,
+                116,
+                128,
+                129,
+                136,
+                145,
+                151,
+                150,
+                162,
+                167,
+                169,
+                180,
+                178,
+                179,
+                195,
+                200,
+                202,
+                211,
+                216,
+                220,
+                230,
+                229,
+                228
+            ],
+            "value_text": [
+                "Dummy",
+                "productfor",
+                "evaluation",
+                "Dummv",
+                "productfor",
+                "evaluation",
+                "Dumm",
+                "productfor",
+                "evaluation",
+                "Dummy",
+                "productfor",
+                "evaluation",
+                "Dummy",
+                "productfor",
+                "evaluation",
+                "Dummy",
+                "productfor",
+                "evaluation",
+                "Dummy",
+                "productfor",
+                "evaluation",
+                "Dummy",
+                "product tor",
+                "evaluation"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "QUANTITY",
+            "value_id": [
+                110,
+                133,
+                149,
+                166,
+                184,
+                199,
+                215,
+                234
+            ],
+            "value_text": [
+                "2 PC",
+                "2PC",
+                "2PC",
+                "2 PC",
+                "2PC",
+                "2PC",
+                "2PC",
+                "PC"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "UNIT_PRICE",
+            "value_id": [
+                118,
+                134,
+                152,
+                168,
+                185,
+                201,
+                217,
+                235
+            ],
+            "value_text": [
+                "1523.04",
+                "1523.04",
+                "1523.04",
+                "1523.04",
+                "1523.04",
+                "1523.04",
+                "1523.04",
+                "761.52"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "DISCOUNT_PERCENT",
+            "value_id": [
+                135,
+                218
+            ],
+            "value_text": [
+                "0.00",
+                "0.00"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "SGST_PERCENT",
+            "value_id": [
+                123,
+                141,
+                157,
+                173,
+                190,
+                206,
+                223,
+                240
+            ],
+            "value_text": [
+                "2.50",
+                "2.50",
+                "250",
+                "2.50",
+                "2.50",
+                "2.50",
+                "2.50",
+                "2.50"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "CGST_PERCENT",
+            "value_id": [
+                121,
+                139,
+                155,
+                171,
+                188,
+                204,
+                222,
+                238
+            ],
+            "value_text": [
+                "2.50",
+                "2.50",
+                "2.50",
+                "2.50",
+                "2.50",
+                "2.50",
+                "2.50",
+                "2.50"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "IGST_PERCENT",
+            "value_id": [
+                159,
+                175,
+                192,
+                208,
+                225,
+                242
+            ],
+            "value_text": [
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00",
+                "0.00"
+            ],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "TOTAL_AMOUNT",
+            "value_id": [
+                126,
+                127,
+                143,
+                144,
+                161,
+                177,
+                194,
+                210,
+                226,
+                227,
+                244
+            ],
+            "value_text": [
+                "1599",
+                "20",
+                "1599.",
+                "20",
+                "1599.20",
+                "1599.20",
+                "1599.20",
+                "1599.20",
+                "1599",
+                "20",
+                "799.60"
+            ],
+            "key_id": [],
+            "key_text": []
         }
     ],
     "global_attributes": {
