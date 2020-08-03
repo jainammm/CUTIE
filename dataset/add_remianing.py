@@ -18,9 +18,7 @@ for filename in os.listdir(directory):
         with open(file_path) as json_file:
             data = json.load(json_file)
 
-            fields_data = data['fields']
-
-            for f in fields_data:
+            for f in data['fields']:
                 fields.remove(f['field_name'])
 
             for remaining_fields in fields:
@@ -36,6 +34,3 @@ for filename in os.listdir(directory):
 
         with open(file_path, 'w') as outfile:
             json.dump(data, outfile)
-
-        # print(fields)
-        # break
