@@ -23,7 +23,7 @@ parser.add_argument('--test_path', type=str, default='') # leave empty if no tes
 parser.add_argument('--fill_bbox', type=bool, default=False) # augment data row/col in each batch
 
 parser.add_argument('--e_ckpt_path', type=str, default='../graph/CUTIE/graph/') # modify this
-parser.add_argument('--ckpt_file', type=str, default='CUTIE_atrousSPP_d20000c3(r80c80)_iter_1100.ckpt')
+parser.add_argument('--ckpt_file', type=str, default='CUTIE_atrousSPP_d20000c26(r80c80)_iter_300.ckpt')
 parser.add_argument('--positional_mapping_strategy', type=int, default=1)
 parser.add_argument('--rows_target', type=int, default=80)  
 parser.add_argument('--cols_target', type=int, default=80) 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
         recalls, accs_strict, accs_soft = [], [], []
         num_test = len(data_loader.validation_docs)
         for i in range(num_test):
-            data = data_loader.next_batch()
+            data = data_loader.fetch_validation_data()
             print('{:d} samples left to be tested'.format(num_test-i))
             
 #             grid_table = data['grid_table']
