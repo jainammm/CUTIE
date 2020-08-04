@@ -72,7 +72,7 @@ parser.add_argument('--log_disp_step', type=int, default=200)
 parser.add_argument('--log_save_step', type=int, default=200) 
 parser.add_argument('--validation_step', type=int, default=200) 
 parser.add_argument('--test_step', type=int, default=400) 
-parser.add_argument('--ckpt_save_step', type=int, default=1000)
+parser.add_argument('--ckpt_save_step', type=int, default=100)
 
 # model
 parser.add_argument('--embedding_size', type=int, default=128) # not used for bert embedding which has 768 as default
