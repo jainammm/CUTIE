@@ -45,7 +45,8 @@ class DataLoader():
             'PRODUCT_ID', 'HSN', 'TITLE', 'QUANTITY', 'UNIT_PRICE', 'DISCOUNT_PERCENT', 'SGST_PERCENT',
             'CGST_PERCENT', 'IGST_PERCENT', 'TOTAL_AMOUNT']
         
-        # self.classes = ['DontCare', 'SELLER_NAME', 'SELLER_GSTIN_NUMBER'] # for table
+        # self.classes = ['DontCare', 'SELLER_NAME', 'SELLER_GSTIN_NUMBER', 
+        #     'TOTAL_INVOICE_AMOUNT_ENTERED_BY_WH_OPERATOR', 'HSN', 'TITLE'] # for table
         #self.classes = ['DontCare', 'Column0', 'Column1', 'Column2', 'Column3', 'Column4', 'Column5'] # for column
         #self.classes = ['DontCare', 'Column']
         #self.classes = ['DontCare', 'VendorName', 'VendorTaxID', 'InvoiceDate', 'InvoiceNumber', 'ExpenseAmount', 'BaseAmount', 'TaxAmount', 'TaxRate'] # for Spanish project
@@ -65,8 +66,8 @@ class DataLoader():
         self.pm_strategy = params.positional_mapping_strategy if hasattr(params, 'positional_mapping_strategy') else 2 
         self.rows_segment = params.rows_segment if hasattr(params, 'rows_segment') else 72 
         self.cols_segment = params.cols_segment if hasattr(params, 'cols_segment') else 72
-        self.rows_target = params.rows_target if hasattr(params, 'rows_target') else 64 
-        self.cols_target = params.cols_target if hasattr(params, 'cols_target') else 64 
+        self.rows_target = params.rows_target if hasattr(params, 'rows_target') else 80 
+        self.cols_target = params.cols_target if hasattr(params, 'cols_target') else 80 
         self.rows_ulimit = params.rows_ulimit if hasattr(params, 'rows_ulimit') else 80 # handle OOM, must be multiple of self.encoding_factor
         self.cols_ulimit = params.cols_ulimit if hasattr(params, 'cols_ulimit') else 80 # handle OOM, must be multiple of self.encoding_factor
                 

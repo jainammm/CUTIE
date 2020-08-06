@@ -32,7 +32,7 @@ parser.add_argument('--ckpt_file', type=str, default='meals/CUTIE_highresolution
 parser.add_argument('--load_dict', type=bool, default=True, help='True to work based on an existing dict') 
 parser.add_argument('--load_dict_from_path', type=str, default='dict/SROIE') # 40000 or 20000TC or table
 parser.add_argument('--tokenize', type=bool, default=True) # tokenize input text
-parser.add_argument('--text_case', type=bool, default=True) # case sensitive
+parser.add_argument('--text_case', type=bool, default=False) # case sensitive
 parser.add_argument('--update_dict', type=bool, default=False)
 parser.add_argument('--dict_path', type=str, default='dict/---') # not used if load_dict is True
 
@@ -42,8 +42,8 @@ parser.add_argument('--rows_segment', type=int, default=72)
 parser.add_argument('--cols_segment', type=int, default=72) 
 parser.add_argument('--augment_strategy', type=int, default=1) # 1 for increasing grid shape size, 2 for gaussian around target shape
 parser.add_argument('--positional_mapping_strategy', type=int, default=1)
-parser.add_argument('--rows_target', type=int, default=64) 
-parser.add_argument('--cols_target', type=int, default=64) 
+parser.add_argument('--rows_target', type=int, default=80) 
+parser.add_argument('--cols_target', type=int, default=80) 
 parser.add_argument('--rows_ulimit', type=int, default=80) # used when data augmentation is true
 parser.add_argument('--cols_ulimit', type=int, default=80) 
 parser.add_argument('--fill_bbox', type=bool, default=False) # fill bbox with dict_id / label_id
@@ -54,7 +54,7 @@ parser.add_argument('--data_augmentation_extra_rows', type=int, default=16)
 parser.add_argument('--data_augmentation_extra_cols', type=int, default=16) 
 
 # training
-parser.add_argument('--batch_size', type=int, default=32) 
+parser.add_argument('--batch_size', type=int, default=5) 
 parser.add_argument('--iterations', type=int, default=40000)  
 parser.add_argument('--lr_decay_step', type=int, default=13000) 
 parser.add_argument('--learning_rate', type=float, default=0.0001)
@@ -72,10 +72,10 @@ parser.add_argument('--log_disp_step', type=int, default=200)
 parser.add_argument('--log_save_step', type=int, default=200) 
 parser.add_argument('--validation_step', type=int, default=200) 
 parser.add_argument('--test_step', type=int, default=400) 
-parser.add_argument('--ckpt_save_step', type=int, default=100)
+parser.add_argument('--ckpt_save_step', type=int, default=200)
 
 # model
-parser.add_argument('--embedding_size', type=int, default=128) # not used for bert embedding which has 768 as default
+parser.add_argument('--embedding_size', type=int, default=256) # not used for bert embedding which has 768 as default
 parser.add_argument('--weight_decay', type=float, default=0.0005) 
 parser.add_argument('--eps', type=float, default=1e-6) 
 
