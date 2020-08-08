@@ -1,3 +1,7 @@
+'''
+Convert ocr result for dataloader
+'''
+
 import json
 import os
 from PIL import Image

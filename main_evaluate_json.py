@@ -108,11 +108,8 @@ if __name__ == '__main__':
             else:
                 recall, acc_strict, acc_soft, res = cal_accuracy_table(data_loader, np.array(data['grid_table']), 
                                                        np.array(data['gt_classes']), model_output_val, 
-                                                       np.array(data['label_mapids']), data['bbox_mapids'])                     
-#             recall, acc_strict, acc_soft, res = cal_save_results(data_loader, np.array(data['grid_table']), 
-#                                                        np.array(data['gt_classes']), model_output_val, 
-#                                                        np.array(data['label_mapids']), data['bbox_mapids'],
-#                                                        data['file_name'][0], params.save_prefix)
+                                                       np.array(data['label_mapids']), data['bbox_mapids'])     
+                                                       
             recalls += [recall]
             accs_strict += [acc_strict] 
             accs_soft += [acc_soft]

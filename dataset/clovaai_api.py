@@ -1,3 +1,7 @@
+'''
+Run OCR for Training Images
+'''
+
 import requests
 import json
 import os

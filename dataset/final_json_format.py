@@ -1,3 +1,7 @@
+'''
+Converts OCR Results for model Input
+'''
+
 import json
 import os
 
@@ -35,5 +39,5 @@ for filename in os.listdir(directory):
                 "file_id": image_path
             }
 
-        with open("jainam.json", 'w') as outfile:
+        with open(file_path, 'w') as outfile:
             json.dump(data, outfile)

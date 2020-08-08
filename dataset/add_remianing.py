@@ -1,3 +1,7 @@
+'''
+Util to add remaining fields to the json data
+'''
+
 import json
 import os
 

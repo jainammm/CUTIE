@@ -1,3 +1,7 @@
+'''
+Create Vocab From traning image texts
+'''
+
 import json
 import os
 
