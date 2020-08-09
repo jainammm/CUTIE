@@ -16,7 +16,7 @@ The proposed model, tackles the key information extraction problem by
 Source: [Nanonets](https://nanonets.com/blog/receipt-ocr/#cutie?&utm_source=nanonets.com/blog/&utm_medium=blog&utm_content=Automating%20Receipt%20Digitization%20with%20OCR%20and%20Deep%20Learning)
 
 
-![Invoice](https://github.com/vsymbol/CUTIE/raw/master/others/sample.jpeg)
+![Invoice](https://github.com/jainammm/CUTIE/raw/master/others/sample.jpeg)
 
 ## Installation & Usage
 
